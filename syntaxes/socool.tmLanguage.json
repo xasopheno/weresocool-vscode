@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "weresocool",
+  "patterns": [
+    {
+      "include": "#keywords"
+    },
+    {
+      "include": "#comments"
+    }
+  ],
+  "repository": {
+    "comments": {
+      "lineComment": "--"
+    },
+    "keywords": {
+      "patterns": [
+        {
+          "name": "keyword.control.socool",
+          "match": "Fm|Fa|Gm|Lm|Pm|Pa|AsIs|f:|l:|g:|p:"
+        },
+        {
+          "name": "keyword.op.socool",
+          "match": "Seq|Overlay|ModBy|FitLength|Repeat|Reverse"
+        },
+        {
+          "name": "variable.parameter.socool",
+          "match": "AD|Portamento|O|#"
+        },
+        {
+          "name": "string.quoted.list.socool",
+          "match": "@|List|&|ET|Take|\\*"
+        },
+        {
+          "name": "markup.bold.socool",
+          "match": "main"
+        }
+      ]
+    }
+  },
+  "scopeName": "source.weresocool"
+}
