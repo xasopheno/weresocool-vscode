@@ -1,66 +1,19 @@
-# socool README
+# WereSoCool VSCode Extension 
+Very simple syntax highlighting for [WereSoCool](https://www.weresocool.org/) in VSCode.
 
-This is the README for your extension "socool". After writing up a brief description, we recommend including the following sections.
+![weresocool highlighting in vs code](images/vscode_extension.png)
 
-## Features
+### Content
+* Vscode uses textmate grammars
+* `syntaxes/socool.tmLanguage.json` - this is the Text mate grammar file that is used for tokenization.
+* `language-configuration.json` - this is the language configuration, defining the tokens that are used for comments and brackets.
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+### Debugging
+* Press `F5` to open a new vscode window with your extension loaded.
 
-For example if there is an image subfolder under your extension project workspace:
+## Make changes
+* You can relaunch the extension from the debug toolbar after making changes to the files listed above.
+* You can also reload (`Ctrl+R` or `Cmd+R` on Mac) the VS Code window with your extension to load your changes.
 
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
-# weresocool_vscode
+## Publishing
+See https://code.visualstudio.com/docs about publishing an extension.
