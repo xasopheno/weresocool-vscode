@@ -2,7 +2,13 @@
   "name": "socool",
   "displayName": "weresocool",
   "description": "syntax highlighting for weresocool in vscode",
+  "license": "MIT",
+  "icon": "images/weresocool_icon.png",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xasopheno/weresocool_vscode.git"
+  },
   "engines": {
     "vscode": "^1.69.0"
   },
@@ -30,5 +36,8 @@
         "path": "./syntaxes/socool.tmLanguage.json"
       }
     ]
+  },
+  "devDependencies": {
+    "vsce": "^2.11.0"
   }
 }
