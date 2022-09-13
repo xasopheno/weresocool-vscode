@@ -1,10 +1,11 @@
 {
   "name": "socool",
+  "publisher": "weresocool",
   "displayName": "weresocool",
   "description": "syntax highlighting for weresocool in vscode",
   "license": "MIT",
   "icon": "images/weresocool_icon.png",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/xasopheno/weresocool_vscode.git"
